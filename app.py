@@ -26,7 +26,7 @@ if st.button("Cari Rute"):
         path, cost = a_star(graph, coord, start, dest)
 
     if path is None:
-        st.error("Rute dari kota {start} menuju kota {dest} tidak ditemukan!")
+        st.error(f"Rute dari kota {start} menuju kota {dest} tidak ditemukan!")
     else:
         rute = " -> ".join(path)
         st.write("**Rute:**", rute)

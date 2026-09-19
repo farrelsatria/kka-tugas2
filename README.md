@@ -43,7 +43,7 @@ Program ini dapat diakses melalui dua cara:
 
 ### 1. Melalui Website yang Sudah Dideploy
 
-**Link akses:** [isi link deploy Streamlit kamu di sini]
+https://kka-tugas2-farrel-satria-mukti.streamlit.app
 
 ### 2. Menjalankan Secara Lokal
 
@@ -56,10 +56,12 @@ Pastikan sudah terinstall di komputer:
 
 #### Langkah-langkah
 
+*Jalankan semua perintah berikut di terminal.*
+
 **1. Clone repository**
 
 ```bash
-git clone [isi link repository kamu di sini]
+git clone https://github.com/farrelsatria/kka-tugas2
 cd kka-tugas2
 ```
 
@@ -94,7 +96,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Setelah perintah di atas dijalankan, Streamlit akan otomatis membuka aplikasi di browser (biasanya di alamat `http://localhost:8501`). Jika tidak terbuka otomatis, salin alamat tersebut dan buka manual di browser.
+Setelah perintah di atas dijalankan, Streamlit akan otomatis membuka aplikasi di browser (biasanya di alamat `http://localhost:8501`). Jika tidak terbuka otomatis, salin alamat yang diberikan di terminal dan buka manual di browser.
 
 **5. Menghentikan aplikasi**
 
